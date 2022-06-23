@@ -1,49 +1,82 @@
-body {
-    background-color:white;
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+.navbar-expand-lg a {
+  color: #ababab;
+}
+.navbar-expand-lg a:hover {
+  color: #00b39b;
+}
+.slogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lead {
+  text-align: center;
+}
+h1 {
+color: #00b39b;
+margin-top: 30px !important;
+margin: 1em 0;
+font-family: Work Sans,Arial,sans-serif !important;
+letter-spacing: -.3px; }
+
+.justify-content-center {
+  margin-top: 50px;
+  gap: 30px;
   }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a, .dropbtn {
-    display: inline-block;
-    color: #00b39b;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
- 
-  li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #00b39b;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
+.service {
+  background: #00ccb1;
+  border-radius: 10px;
+  padding: 30px;
+}
+.service_2 {
+  background: #3d83df;
+  border-radius: 10px;
+  padding: 30px;
+}
+.service_3 {
+  background: #1b2734;
+  border-radius: 10px;
+  padding: 30px;
+}
+.service h2, h3 {
+  font-weight:100 !important;
+  color: white;
+}
+.service_2 h2, h3 {
+  font-weight:100 !important;
+  color: white;
+}
+.service_3 h2, h3 {
+  font-weight:100 !important;
+  color: white;
+}
+select {
+background: none;
+border: none;
+color: white;
+font-size: 1.2rem !important;
+}
+option {
+  color: black;
+}
+.drop-select {
+  margin-top: 50px;
+}
+.banner {
+  background-color: #e5faf8;
+}
+.log {
+  content: "";
+
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+
+}

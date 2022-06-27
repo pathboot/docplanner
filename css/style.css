@@ -1,4 +1,4 @@
-@media all and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
@@ -174,11 +174,13 @@ color: #00b39b;
   font-size: 1.625em;
   margin: .25em 0 .35em;
   padding-right: 1em;
+
 }
 .wrap {
   display:flex;
 align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .office {
   max-width: 460px;
@@ -200,7 +202,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
   gap: 10px;
-  margin: 50px;
+  align-items: center;
   }
 }
 
@@ -320,4 +322,28 @@ footer {
   font-size: 14px;
   text-align: center;
   color: #ababab;
+}
+
+
+@media only screen and (max-width: 600px) {
+.tblock {display: flex !important;  flex-direction: column !important;}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .box-w {display: flex !important;  flex-direction: column !important;}
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner {display: flex !important;  flex-direction: column !important; padding: 10px;}
+    
+    }
+@media only screen and (max-width: 600px) {
+      .wraper2 {display: flex !important;  flex-direction: column !important; padding: 10px; align-items: center;}
+      
+      }
+@media only screen and (max-width: 600px) {
+.navbar-toggler {padding: 0.25rem 0.75rem !important ;font-size: 1.25rem !important;}
+        
 }
